@@ -3,6 +3,7 @@ package DepthFirstSearch;
 import java.util.Stack;
 
 public class DFS {
+	
 	private Stack<Vertex> stack;
 	public DFS(){
 		this.stack = new Stack<>();
