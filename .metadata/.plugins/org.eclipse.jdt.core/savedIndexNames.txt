@@ -1,0 +1,7 @@
+INDEX VERSION 1.127+C:\Users\chunf\Desktop\2015 cli\GATech\AI\UdemyAIJAva\AISourceCode\.metadata\.plugins\org.eclipse.jdt.core
+442601174.index
+4172830243.index
+3151368992.index
+1967289656.index
+2468013721.index
+1657330681.index
