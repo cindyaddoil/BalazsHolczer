@@ -1,6 +1,7 @@
 package BreadthFirstSearch;
 
 public class App {
+	
 	public static void main(String[] args) {
 		BFS breadthFirstSearch = new BFS();
 		Vertex vertex1 = new Vertex(1);
