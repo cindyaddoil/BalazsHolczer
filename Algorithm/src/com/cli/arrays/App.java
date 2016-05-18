@@ -1,6 +1,6 @@
 package com.cli.arrays;
 
-public class app {
+public class App {
 	public static void main(String[] args) {
 		int[] nums = new int[10];
 		nums[0] = 1;
