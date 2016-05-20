@@ -11,7 +11,12 @@ public class Algorithm {
 		
 	}
 	public void interpretExpression(String expression) {
-		String[] expressionArray = expression.split(" ");
+		expression = expression.replaceAll(" ", "");
+		System.out.println(expression);
+		String[] expressionArray = expression.split("");
+	/*	for (String s:expressionArray) {
+			System.out.println(s);
+		}*/
 		for (String s:expressionArray) {
 			if(s.equals("(")) {
 				//do nothing
