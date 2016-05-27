@@ -8,6 +8,7 @@ public class Node<T extends Comparable<T>> {
 	private Node<T> parentNode;
 	private int balance;
 	
+	
 	public Node(T data, Node<T> parentNode){
 		this.data = data;
 		this.parentNode = parentNode;
