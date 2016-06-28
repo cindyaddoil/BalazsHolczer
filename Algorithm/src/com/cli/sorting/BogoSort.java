@@ -1,6 +1,6 @@
 package com.cli.sorting;
 
-public class BogoSort {
+public class BogoSort extends Utility {
 	public static void main(String[] args) {
 		int [] nums = {1, 34, 0, -1};
 		int loopCounter = 0;
@@ -9,39 +9,6 @@ public class BogoSort {
 			++loopCounter;
 			System.out.println("loopcounter " + loopCounter);
 			showArray(nums);
-		}
-	}
-	/*
-	 * Fisher-Yates algorithm in order to shuffle an array The algorithm
-	 * produces an unbiased permutation: every permutation is equally likely
-	 * O(N) running time ~ proportional to the number of items we want to
-	 * shuffle + in-place algorithm
-	 */
-	public static void shuffle(int[] nums) {
-		for (int i = nums.length - 1; i >= 0 ; --i) {
-			int j = (int) (Math.random()*i);
-			swap(nums, i, j);
-		}
-	}
-
-	public static void swap(int[] nums, int i, int j) {
-		int temp = nums[i];
-		nums[i] = nums[j];
-		nums[j] = temp;
-	}
-
-	public static boolean isSorted(int[] nums) {
-		for (int i = 0; i < nums.length-1; i++) {
-			if (nums[i + 1] < nums[i]) {
-				return false;
-			}
-		}
-		return true;
-	}
-
-	public static void showArray(int[] nums) {
-		for (int i = 0; i < nums.length; i++) {
-			System.out.print(nums[i] + " ");
 		}
 	}
 }
