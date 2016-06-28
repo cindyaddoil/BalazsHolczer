@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="AI/src"/>
+	<classpathentry kind="src" path="AISourceCode/GeneticAlgorithms/src"/>
+	<classpathentry kind="src" path="AISourceCode/GraphAlgorithms"/>
+	<classpathentry kind="src" path="AISourceCode/NeuralNetwork/BackpropagationNeuralNetwork/src"/>
+	<classpathentry kind="src" path="AISourceCode/PSO/src"/>
+	<classpathentry kind="src" path="AISourceCode/SimulatedAnnealing/src"/>
+	<classpathentry kind="src" path="AISourceCode/TicTacToe/src"/>
+	<classpathentry kind="src" path="Algorithm/src"/>
+	<classpathentry excluding="Collections/src/|AVL/src/|BST/src/|LinkList/src/" kind="src" path="AlgorithmSourceCode"/>
+	<classpathentry kind="src" path="AlgorithmSourceCode/AVL/src"/>
+	<classpathentry kind="src" path="AlgorithmSourceCode/BST/src"/>
+	<classpathentry kind="src" path="AlgorithmSourceCode/Collections/src"/>
+	<classpathentry kind="src" path="AlgorithmSourceCode/LinkList/src"/>
+	<classpathentry kind="src" path="Test/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="AISourceCode/GeneticAlgorithms/bin"/>
+</classpath>
