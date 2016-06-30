@@ -34,6 +34,8 @@ public class RunLengthEncoding {
 	public static void main(String[] args) {
 		String s = "AAAAABBB";
 		System.out.println(encode(s));
+		String sd = "3A2B";
+		System.out.println(decode(sd));
 		
 	}
 }
